@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "mc-145748-fix",
+  "version": "${version}",
+  "name": "MC-145748-FIX",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.stiginio.project.mc145748Fix.Mc145748Fix"
+    ]
+  },
+  "mixins": [
+    "mc-145748-fix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
